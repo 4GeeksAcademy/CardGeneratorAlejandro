@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+.card {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.number {
+  text-align: center;
+  font-size: 1000%;
+  color: black;
+  margin: 50px auto;
+}
+
+.uppersuit {
+  text-align: start;
+  color: red;
+  margin-top: 8%;
+  margin-left: 10%;
+  font-size: 400%;
+}
+
+.lowersuit {
+  color: red;
+  text-align: end;
+  font-size: 400%;
+  margin-right: 10%;
+  margin-bot: 8%;
+}
+
+.button {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
