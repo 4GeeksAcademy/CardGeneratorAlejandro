@@ -74,12 +74,6 @@ window.onload = function() {
   }
 
   function card_generator() {
-    function resize_card() {
-      let width = prompt("Introduce un ancho para la carta");
-      let height = prompt("Introduce un alto para la carta");
-      card.width = width;
-      card.height = height;
-    }
     let card = card_selection(suit, cardnumber);
     suit_color(card);
     suit_selection(card);
