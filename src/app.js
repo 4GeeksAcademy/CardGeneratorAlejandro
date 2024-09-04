@@ -80,8 +80,26 @@ window.onload = function() {
     number_selection(card);
   }
 
+  document.querySelector;
+
   card_generator();
+
   document.querySelector(".button").addEventListener("click", card_generator);
   setInterval(card_generator, 10000);
+
+  let width = document.querySelector("#width");
+  width.addEventListener("change", function() {
+    let card = document.querySelector(".card");
+    card.style.width = width.value + "px";
+    console.log(width.value);
+  });
+
+  let height = document.querySelector("#height");
+  height.addEventListener("change", function() {
+    let card = document.querySelector(".card");
+    card.style.height = height.value + "px";
+    console.log(height.value);
+  });
+
   console.log("Hello Rigo from the console!");
 };

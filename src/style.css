@@ -26,11 +26,11 @@ body {
 }
 
 .lowersuit {
-  color: red;
-  text-align: end;
+  text-align: start;
+  textcolor: red;
   font-size: 400%;
+  transform: rotate(180deg);
   margin-right: 10%;
-  margin-bot: 8%;
 }
 
 .button {
